@@ -1,1 +1,13 @@
 
+As I progress on this project, I have gained far more comfort with the Kotlin language.
+In the past, I tried to do a similar project in Java, however the verbose nature of the
+Java language does not make it well suited to rapid application development.  Despite its
+mobile-intentions, Kotlin is just as well-suited to make desktop or server applications.
+
+Some of my favorite aspects of Kotlin are its concise nature.  While I am not totally
+fond of conciseness that causes ambiguity, it seems easier to contend with as I spend
+more time with it.
+Another positive aspect is its ability to target the Java Virtual Machine, meaning Kotlin
+immediately has a large number of compatible platforms.
+Kotlin is compatible with all Java libraries, meaning all Java libraries can be used in
+Kotlin, and vice-versa.
