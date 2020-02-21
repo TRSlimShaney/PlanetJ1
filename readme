@@ -11,3 +11,8 @@ Another positive aspect is its ability to target the Java Virtual Machine, meani
 immediately has a large number of compatible platforms.
 Kotlin is compatible with all Java libraries, meaning all Java libraries can be used in
 Kotlin, and vice-versa.
+
+Kotlin's adoption in Android development has been rapid, however enterprise adoption has
+been sluggish, due to the preference of the industry to stick with what's widely known.
+Hopefully, this can change sometime soon because after using Kotlin, I never want to go
+back to Java!
