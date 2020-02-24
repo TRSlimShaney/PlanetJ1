@@ -24,4 +24,7 @@ back to Java!
 PlanetJ1 has entered Alpha state.  I am using PyQt5 for the GUI and Py4J to communicate the GUI with the JVM.
 Currently, I am able to move my one unique "unit" around the screen on a small grass map.
 Now that I have a solid foundation, I can start adding features :).  PlanetJ1 is almost entirely integer-math
-based so it runs very fast, however there is a lot of memory optmization I can do.
+based so it runs very fast, however there is a lot of memory optmization I can do.  Because of the use of Py4J,
+the game can also be run over a network with client-server architecture, although it currently only supports
+one shared session.  This means there could be potential for a multiplayer feature as well.
+The biggest issues I've had to gripe with is certain data structures.  When using Kotlin, 
