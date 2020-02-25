@@ -20,7 +20,7 @@ Hopefully, this can change sometime soon because after using Kotlin, I never wan
 back to Java!
 
 
-2/23/20
+2/23/20:
 PlanetJ1 has entered Alpha state.  I am using PyQt5 for the GUI and Py4J to communicate the GUI with the JVM.
 Currently, I am able to move my one unique "unit" around the screen on a small grass map.
 Now that I have a solid foundation, I can start adding features :).  PlanetJ1 is almost entirely integer-math
@@ -28,7 +28,14 @@ based so it runs very fast, however there is a lot of memory optmization I can d
 the game can also be run over a network with client-server architecture, although it currently only supports
 one shared session.  This means there could be potential for a multiplayer feature as well.
 The biggest issues I've had to gripe with is certain data structures.  When using Kotlin, ArrayLists become
-almost completely useless as it's much better to use Kotlin's mutableLists which are dynamic rather than
-static.  I wasted hours on ArrayList quirks when instead I could've just used mutableLists.
+almost completely useless as it's much better to use Kotlin's mutableLists.
 There are several features that have been completed already but simply aren't functional yet since I wanted
 to have a working version, first.
+
+
+2/24/20:
+PlanetJ1 has some new features.  I've completed the viewmode, meaning now the player can view an entire map
+without moving a unit around, however I will need to add the ability to specify a unit to return to in
+select mode.  That is why the tiles on the GUI are also buttons, but I haven't gotten around to adding
+listeners to all those buttons yet.  I've also added large map support, meaning maps are no longer
+restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.
