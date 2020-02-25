@@ -38,4 +38,7 @@ PlanetJ1 has some new features.  I've completed the viewmode, meaning now the pl
 without moving a unit around, however I will need to add the ability to specify a unit to return to in
 select mode.  That is why the tiles on the GUI are also buttons, but I haven't gotten around to adding
 listeners to all those buttons yet.  I've also added large map support, meaning maps are no longer
-restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.
+restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.  I've also improved the GUI,
+adding the "Commander X16" (a reference to David Murray's computer project), an attempt at a more
+powerful, compact interface.  I will also have to clean up the code because in my haste to add features
+I made it messy.
