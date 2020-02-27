@@ -42,3 +42,13 @@ restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.  I've 
 adding the "Commander X16" (a reference to David Murray's computer project), an attempt at a more
 powerful, compact interface.  I will also have to clean up the code because in my haste to add features
 I made it messy.
+
+
+2/26/20:
+PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning if you click the
+Next Builder button, the game will "jump" you to your next builder.  I felt like this was an extremely
+important usability feature because manually moving the viewscreen around to select units would be
+a huge pain.  The functionality for the other "Next" buttons as you can imagine will implement similar
+logic, just for different unit types.  At this point, I do not have any "Next" buttons for buildings,
+so those will have to be added as I add buildings.  However, since I have the jump logic down well
+it will take only minor tweaks to be compatible.
