@@ -58,6 +58,7 @@ build functionality to the builders, but also add a building and its respective 
 
 2/27/20:
 No new features, however game logic is now threaded, meaning multiple moves can now be suggested to
-the game at a time which are then processed in batches to solve concurrent access issues.  I've
-also worked on the first building, which is a factory.  I've also added logic for builders to build
+the game at a time which are then processed in batches to solve concurrent access issues.  Threading
+was also necessary to finish implementing the build logic that I've been working on.  I've
+also made the first building, which is a factory.  I've also added logic for builders to build
 stuff, but I haven't implemented it fully yet.
