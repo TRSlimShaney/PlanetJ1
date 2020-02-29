@@ -1,52 +1,23 @@
 More up to date source code here:     https://drive.google.com/open?id=1Nht1FFOemS9QAv4Z2m5PWdBxrH70par9
 
 2/19/20:
-As I progress on this project, I have gained far more comfort with the Kotlin language.
-In the past, I tried to do a similar project in Java, however the verbose nature of the
-Java language does not make it well suited to rapid application development.  Despite its
-mobile-intentions, Kotlin is just as well-suited to make desktop or server applications.
+As I progress on this project, I have gained far more comfort with the Kotlin language.  In the past, I tried to do a similar project in Java, however the verbose nature of the Java language does not make it well suited to rapid application development.  Despite its mobile-intentions, Kotlin is just as well-suited to make desktop or server applications.
 
-Some of my favorite aspects of Kotlin are its concise nature.  While I am not totally
-fond of conciseness that causes ambiguity, it seems easier to contend with as I spend
-more time with it.
-Another positive aspect is its ability to target the Java Virtual Machine, meaning Kotlin
-immediately has a large number of compatible platforms.
-Kotlin is compatible with all Java libraries, meaning all Java libraries can be used in
-Kotlin, and vice-versa.
+Some of my favorite aspects of Kotlin are its concise nature.  While I am not totally fond of conciseness that causes ambiguity, it seems easier to contend with as I spend more time with it. Another positive aspect is its ability to target the Java Virtual Machine, meaning Kotlin immediately has a large number of compatible platforms.  Kotlin is compatible with all Java libraries, meaning all Java libraries can be used in Kotlin, and vice-versa.
 
-Kotlin's adoption in Android development has been rapid, however enterprise adoption has
-been sluggish, due to the preference of the industry to stick with what's widely known.
-Hopefully, this can change sometime soon because after using Kotlin, I never want to go
-back to Java!
+Kotlin's adoption in Android development has been rapid, however enterprise adoption has been sluggish, due to the preference of the industry to stick with what's widely known.  Hopefully, this can change sometime soon because after using Kotlin,I never want to go back to Java!
 
 
 2/23/20:
-PlanetJ1 has entered Alpha state.  I am using PyQt5 for the GUI and Py4J to communicate the GUI with the JVM.
-Currently, I am able to move my one unique "unit" around the screen on a small grass map.
-Now that I have a solid foundation, I can start adding features :).  PlanetJ1 is almost entirely integer-math
-based so it runs very fast, however there is a lot of memory optmization I can do.  Because of the use of Py4J,
-the game can also be run over a network with client-server architecture, although it currently only supports
-one shared session.  This means there could be potential for a multiplayer feature as well.
-The biggest issues I've had to gripe with is certain data structures.  When using Kotlin, ArrayLists become
-almost completely useless as it's much better to use Kotlin's mutableLists.
-There are several features that have been completed already but simply aren't functional yet since I wanted
-to have a working version, first.
+PlanetJ1 has entered Alpha state.  I am using PyQt5 for the GUI and Py4J to communicate the GUI with the JVM. Currently, I am able to move my one unique "unit" around the screen on a small grass map. Now that I have a solid foundation, I can start adding features :).  PlanetJ1 is almost entirely integer-math based so it runs very fast, however there is a lot of memory optmization I can do.  Because of the use of Py4J, the game can also be run over a network with client-server architecture, although it currently only supports one shared session.  This means there could be potential for a multiplayer feature as well. The biggest issues I've had to gripe with is certain data structures.  When using Kotlin, ArrayLists become almost completely useless as it's much better to use Kotlin's mutableLists. There are several features that have been completed already but simply aren't functional yet since I wanted to have a working version, first.
 
 
 2/24/20:
-PlanetJ1 has some new features.  I've completed the viewmode, meaning now the player can view an entire map
-without moving a unit around, however I will need to add the ability to specify a unit to return to in
-select mode.  That is why the tiles on the GUI are also buttons, but I haven't gotten around to adding
-listeners to all those buttons yet.  I've also added large map support, meaning maps are no longer
-restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.  I've also improved the GUI,
-adding the "Commander X16" (a reference to David Murray's computer project), an attempt at a more
-powerful, compact interface.  I will also have to clean up the code because in my haste to add features
-I made it messy.
+PlanetJ1 has some new features.  I've completed the viewmode, meaning now the player can view an entire map without moving a unit around, however I will need to add the ability to specify a unit to return to in select mode.  That is why the tiles on the GUI are also buttons, but I haven't gotten around to adding listeners to all those buttons yet.  I've also added large map support, meaning maps are no longer restricted to 11 x 11 and can now go up to 2,147,483,648 x 2,147,483,648.  I've also improved the GUI, adding the "Commander X16" (a reference to David Murray's computer project), an attempt at a more powerful, compact interface.  I will also have to clean up the code because in my haste to add features I made it messy.
 
 
 2/26/20:
-PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning if you click the
-Next Builder button, the game will "jump" you to your next builder.  I felt like this was an extremely
+PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning if you click the Next Builder button, the game will "jump" you to your next builder.  I felt like this was an extremely
 important usability feature because manually moving the viewscreen around to select units would be
 a huge pain.  The functionality for the other "Next" buttons as you can imagine will implement similar
 logic, just for different unit types.  At this point, I do not have any "Next" buttons for buildings,
