@@ -22,3 +22,7 @@ PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning 
 
 2/27/20:
 No new features, however game logic is now threaded, meaning multiple moves can now be suggested to the game at a time which are then processed in batches to solve concurrent access issues.  Threading was also necessary to finish implementing the build logic that I've been working on.  I've also made the first building, which is a factory.  I've also added logic for builders to build stuff, but I haven't implemented it fully yet.
+
+
+2/28/20:
+The only new feature this time is the presence of the player factory now in game.  Unfortunately, it is still not functional.  I am almost finished with the build logic and also almost finished with the create logic, so not only will the factory be able to be built, but it will also be able to produce units as well :).  I also found a movement related bug which allowed units to move over buildings which I have now corrected.
