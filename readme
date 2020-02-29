@@ -17,19 +17,8 @@ PlanetJ1 has some new features.  I've completed the viewmode, meaning now the pl
 
 
 2/26/20:
-PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning if you click the Next Builder button, the game will "jump" you to your next builder.  I felt like this was an extremely
-important usability feature because manually moving the viewscreen around to select units would be
-a huge pain.  The functionality for the other "Next" buttons as you can imagine will implement similar
-logic, just for different unit types.  At this point, I do not have any "Next" buttons for buildings,
-so those will have to be added as I add buildings.  However, since I have the jump logic down well
-it will take only minor tweaks to be compatible.
-At this point, I'm thinking of adding my first building.  This means I will not only have to add
-build functionality to the builders, but also add a building and its respective functionality, too.
+PlanetJ1 has one new feature.  I've added "next builder" functionality, meaning if you click the Next Builder button, the game will "jump" you to your next builder.  I felt like this was an extremely important usability feature because manually moving the viewscreen around to select units would be a huge pain.  The functionality for the other "Next" buttons as you can imagine will implement similar logic, just for different unit types.  At this point, I do not have any "Next" buttons for buildings, so those will have to be added as I add buildings.  However, since I have the jump logic down well it will take only minor tweaks to be compatible. At this point, I'm thinking of adding my first building.  This means I will not only have to add build functionality to the builders, but also add a building and its respective functionality, too.
 
 
 2/27/20:
-No new features, however game logic is now threaded, meaning multiple moves can now be suggested to
-the game at a time which are then processed in batches to solve concurrent access issues.  Threading
-was also necessary to finish implementing the build logic that I've been working on.  I've
-also made the first building, which is a factory.  I've also added logic for builders to build
-stuff, but I haven't implemented it fully yet.
+No new features, however game logic is now threaded, meaning multiple moves can now be suggested to the game at a time which are then processed in batches to solve concurrent access issues.  Threading was also necessary to finish implementing the build logic that I've been working on.  I've also made the first building, which is a factory.  I've also added logic for builders to build stuff, but I haven't implemented it fully yet.
