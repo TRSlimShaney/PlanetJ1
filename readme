@@ -31,3 +31,7 @@ The only new feature this time is the presence of the player factory now in game
 2/29/20:
 Build functionality is now complete.  I also added a "wait" property to every unit and building, meaning they cannot build or create unless a certain amount of time has passed.  Actions are "queued" until the timer expires.  Resources are now displayed in the GUI, and creating/building will use them up.  That makes what needs to be worked on next pretty straightforward: I need to implement some resources for the player to gather to replenish this supply.  In addition, I also had to rework the movement and screen drawing logic.  It's now much simpler.  Instead of having duplicated units in the units layer and in the units list, now I just have all unit changing logic operate on the unit list.  Some unit layer logic is still quite useful, so I have kept it.
 I also have finalized the create logic so factories can now make builders.  The "next" buttons for workers and factories also now function, too.
+
+
+3/1/20:
+Resource gathering functionality is now complete.  During the gathering process, the resource's salvage value is added to the player's stockpile until the resource's health reaches 0, at which point the resource is replaced with a grass tile.  During salvage, a worker is not allowed to move and currently salvage cannot be cancelled, which adds a strategic element to gameplay.  I may add cancel functionality later.
