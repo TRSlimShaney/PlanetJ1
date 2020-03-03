@@ -36,3 +36,7 @@ I also have finalized the create logic so factories can now make builders.  The 
 3/1/20:
 Resource gathering functionality is now complete.  During the gathering process, the resource's salvage value is added to the player's stockpile until the resource's health reaches 0, at which point the resource is replaced with a grass tile.  During salvage, a worker is not allowed to move and currently salvage cannot be cancelled, which adds a strategic element to gameplay.  I may add cancel functionality later.  I think the next thing I should tackle is combat logic.  I might just start off with melee-based combat and later move into projectile based combat, but we'll see.
 I now have melee-based combat working and I prevented the spamming of attack by setting a wait timer after every attack.  Most of the base features have now been implemented, so I suppose it's time to start implementing the enemy logic.
+
+
+3/2/20:
+Abort functionality is now complete.  I've completed a rough draft for a first map.  I still need to work on the enemy units and buildings.  I've also added the Gas Vent, which is where a worker can be assigned to collect Gas.
