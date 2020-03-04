@@ -40,3 +40,7 @@ I now have melee-based combat working and I prevented the spamming of attack by 
 
 3/2/20:
 Abort functionality is now complete.  I've completed a rough draft for a first map.  I still need to work on the enemy units and buildings.  I've also added the Gas Vent, which is where a worker can be assigned to collect Gas.
+
+
+3/3/20:
+I've completed the first map, which is a lake with a grass field around it.  The lake is surrounded by gas vents and mineral deposits.  Maps are now independent classes that are loaded into the model at startup.  Maps can visually be designed within a simple text editor, which eliminates the need for a separate map editor application.  The only issue is that the unit and the world layers have to be designed separately, but it's not really much of an inconvenience because the layers can be copied and pasted and text can be replaced with find/replace all, etc.
