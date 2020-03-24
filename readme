@@ -45,3 +45,7 @@ Abort functionality is now complete.  I've completed a rough draft for a first m
 3/3/20:
 I've completed the first map, which is a lake with a grass field around it.  The lake is surrounded by gas vents and mineral deposits.  Maps are now independent classes that are loaded into the model at startup.  Maps can visually be designed within a simple text editor, which eliminates the need for a separate map editor application.  The only issue is that the unit and the world layers have to be designed separately, but it's not really much of an inconvenience because the layers can be copied and pasted and text can be replaced with find/replace all, etc.
 I've also discovered that Py4J has a reflective access condition when returning ArrayLists of Strings.  This currently does not affect the operation of the game, however this sort of access potentially will not be allowed in future versions of the JDK.  This issue does not seem to affect Strings alone, however.  That means this issue can easily be solved in the future if it becomes necessary.  Instead I can return Strings to the Python GUI which can then split them into the respective substrings based on a specified delimiter, removing the need for ArrayLists of Strings.
+
+
+3/24/20:
+As part of my new efforts to learn C#, I started porting the Kotlin project into a .NET Core 3.1 project.  I haven't looked into it, but there's probably ways to call C# code with Python too, meaning my Python frontend can work with the C# version as well.
